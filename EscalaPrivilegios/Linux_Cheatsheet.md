@@ -10,7 +10,9 @@ https://github.com/rebootuser/LinEnum.git
 
 Buscar Shells scape
 
+```
 sudo -l -l
+```
 
 ```
 https://gtfobins.github.io
