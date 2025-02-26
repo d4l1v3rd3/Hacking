@@ -8,6 +8,14 @@ Dejo este repositorio para Enumeración de Linux en /tmp automáticamente
 https://github.com/rebootuser/LinEnum.git
 ```
 
+Buscar Shells scape
+
+sudo -l -l
+
+```
+https://gtfobins.github.io
+```
+
 Dejo por aquí el comando principal a la hora de entrar en una máquina linux
 
 ```
@@ -38,9 +46,14 @@ mkpasswd -m sha-512 pass
 
 O otra
 
-````
+```
 openssl passwd newpasswordhere
 ```
+
+
+
+
+
 
 
 
